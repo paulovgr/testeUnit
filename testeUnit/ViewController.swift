@@ -19,8 +19,4 @@ class ViewController: UIViewController {
 
 }
 
-extension String {
-    func removeWhiteSpace() -> String {
-        return self.replacingOccurrences(of: " ", with: "")
-    }
-}
+
