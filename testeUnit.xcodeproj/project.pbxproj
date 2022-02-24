@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9441DCC227C7457400539641 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9441DCC127C7457400539641 /* StringUtils.swift */; };
-		9441DCC527C7462E00539641 /* AccountBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9441DCC427C7462E00539641 /* AccountBalance.swift */; };
+		9441DCCB27C74C2200539641 /* AccountBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9441DCCA27C74C2200539641 /* AccountBalance.swift */; };
+		9441DCCD27C74C4400539641 /* AccountBalanceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9441DCCC27C74C4400539641 /* AccountBalanceSpec.swift */; };
 		94AC1C2427BF0C8500B328BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC1C2327BF0C8500B328BB /* AppDelegate.swift */; };
 		94AC1C2627BF0C8500B328BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC1C2527BF0C8500B328BB /* SceneDelegate.swift */; };
 		94AC1C2827BF0C8500B328BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC1C2727BF0C8500B328BB /* ViewController.swift */; };
@@ -39,7 +40,8 @@
 
 /* Begin PBXFileReference section */
 		9441DCC127C7457400539641 /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
-		9441DCC427C7462E00539641 /* AccountBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalance.swift; sourceTree = "<group>"; };
+		9441DCCA27C74C2200539641 /* AccountBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalance.swift; sourceTree = "<group>"; };
+		9441DCCC27C74C4400539641 /* AccountBalanceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalanceSpec.swift; sourceTree = "<group>"; };
 		94AC1C2027BF0C8500B328BB /* testeUnit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testeUnit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94AC1C2327BF0C8500B328BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94AC1C2527BF0C8500B328BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,7 +113,7 @@
 				94AC1C2E27BF0C8700B328BB /* LaunchScreen.storyboard */,
 				94AC1C3127BF0C8700B328BB /* Info.plist */,
 				9441DCC127C7457400539641 /* StringUtils.swift */,
-				9441DCC427C7462E00539641 /* AccountBalance.swift */,
+				9441DCCA27C74C2200539641 /* AccountBalance.swift */,
 			);
 			path = testeUnit;
 			sourceTree = "<group>";
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				94AC1C3A27BF0C8800B328BB /* StringUtilsSpec.swift */,
+				9441DCCC27C74C4400539641 /* AccountBalanceSpec.swift */,
 			);
 			path = testeUnitTests;
 			sourceTree = "<group>";
@@ -268,7 +271,7 @@
 				94AC1C2827BF0C8500B328BB /* ViewController.swift in Sources */,
 				94AC1C2427BF0C8500B328BB /* AppDelegate.swift in Sources */,
 				94AC1C2627BF0C8500B328BB /* SceneDelegate.swift in Sources */,
-				9441DCC527C7462E00539641 /* AccountBalance.swift in Sources */,
+				9441DCCB27C74C2200539641 /* AccountBalance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94AC1C3B27BF0C8800B328BB /* StringUtilsSpec.swift in Sources */,
+				9441DCCD27C74C4400539641 /* AccountBalanceSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
